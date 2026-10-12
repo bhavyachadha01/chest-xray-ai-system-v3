@@ -1,0 +1,49 @@
+# Python environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+
+# VS Code
+.vscode/
+
+# Dataset and X-ray images
+data/
+test_images/
+
+*.png
+*.jpg
+*.jpeg
+*.dcm
+
+# Large archives / downloads
+*.zip
+*.tgz
+*.tar
+*.tar.gz
+*.crdownload
+
+# Research papers
+*.pdf
+
+# Trained model checkpoints
+models/
+*.pth
+*.pt
+*.ckpt
+
+# Generated NumPy arrays
+*.npy
+*.npz
+
+# Temporary files
+*.log
+*.tmp
+
+# Gradio cache
+gradio_cached_examples/
